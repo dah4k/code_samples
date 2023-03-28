@@ -14,6 +14,6 @@ test: $(TEST_BIN)
 	done
 
 clean:
-	-rm -f $(ALL_BIN) $(TEST_BIN)
+	-rm -f a.out $(ALL_BIN) $(TEST_BIN)
 
 .PHONY: all test clean
