@@ -9,7 +9,7 @@
 
 int main()
 {
-    uint16_t i;
+    register uint16_t i;
 
     puts("[*] Start GREASE Test");
     i = 0x0000;
