@@ -4,6 +4,7 @@ ALL_BIN  = $(subst .c,,$(ALL_C))
 TEST_BIN = $(subst .c,,$(TEST_C))
 
 CFLAGS = -Wall -O2
+LDFLAGS = -lsodium
 
 all: $(ALL_BIN)
 
